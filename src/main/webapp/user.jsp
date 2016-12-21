@@ -41,7 +41,7 @@ table tr:nth-child(even) {
 							$scope.load = function() {
 								$http
 										.get(
-												"http://localhost:8082/StrutsDisplayTag/userAction.do")
+												"http://52.52.200.217:8082/StrutsDisplayTag/userAction.do")
 										.then(function(response) {
 											$scope.names = response.data;
 										});
@@ -56,7 +56,7 @@ table tr:nth-child(even) {
 								$scope.cap.emailId = document.getElementById("emailId").value;
 								$http
 										.get(
-												"http://localhost:8082/StrutsDisplayTag/editAction.do",
+												"http://52.52.200.217:8082/StrutsDisplayTag/editAction.do",
 												{
 													params : $scope.cap
 												}).then(function(response) {
@@ -73,7 +73,7 @@ table tr:nth-child(even) {
 							$scope.search = function() {
 								$http
 										.get(
-												"http://localhost:8082/StrutsDisplayTag/searchAction.do",
+												"http://52.52.200.217:8082/StrutsDisplayTag/searchAction.do",
 												{
 													params : $scope.searchUser
 												}).then(function(response) {
