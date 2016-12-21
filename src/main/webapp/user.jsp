@@ -126,7 +126,7 @@ table tr:nth-child(even) {
 			style="width: 100%; height: 100%; padding: 50px; font-weight: bold;">
 			<div id="fetchDataDiv" align="center">
 				<button class="fetchbutton" type="submit" ng-click="load()"
-					style="width: 50%; height: 50%">Fetch Data</button>
+					style="width: 50%; height: 50%">Fetch bambam Data</button>
 			</div>
 			&nbsp;&nbsp;
 			<div id="tableDiv" style="display: none;" align="center">
