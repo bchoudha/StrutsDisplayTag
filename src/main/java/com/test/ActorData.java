@@ -3,7 +3,7 @@ package com.test;
 import java.util.ArrayList;
 
 /**
- * The Class ActorData. test
+ * The Class ActorData. tests
  */
 public class ActorData {
 

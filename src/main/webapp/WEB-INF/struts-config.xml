@@ -22,5 +22,9 @@
 			type="com.test.SearchAction">
 			<forward name="success" path="/user.jsp" />
 		</action>
+		<action input="/" name="UserForm" path="/xsltAction" scope="session"
+			type="com.test.XSLTAction">
+			<forward name="success" path="/xslt.jsp" />
+		</action>
 	</action-mappings>
 </struts-config>
